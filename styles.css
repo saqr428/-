@@ -299,7 +299,8 @@ footer{
 
     }
     .heroImg{
-        width: 400px;
+        width: 100%;
+        max-width:320px;
     }
     .name, .title{
         font-size: 2rem;
