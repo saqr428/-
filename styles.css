@@ -286,8 +286,11 @@ footer{
 }
 @media(max-width: 1023px){
     header{
-        
-        margin-left: 1rem;
+        flex-direction:column;
+        gap: 1.5rem;
+        padding: 1rem;
+        align-items: center;
+            margin-left: 1rem;
         margin-right: 1rem;
     }
     .hero{
@@ -329,7 +332,9 @@ footer{
         width: 60px;
     }
     .aboutMeImg{
-        width: 400px;
+        width: 90%;
+        max-width:300px;
+        height:auto;
     }
     .works{
         padding: 0;
@@ -345,6 +350,7 @@ footer{
     .works ul{
 
         flex-direction: column;
+        align-items: center;
         gap:1rem;
     }
     .contactContainer{
@@ -353,6 +359,8 @@ footer{
     }
     .contact{
         flex-direction: column;
+        align-items:center;
+        text-align:center;
         gap: 1rem;
         margin-right: 0;
     }
