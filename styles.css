@@ -312,6 +312,8 @@ footer{
         flex-direction: column-reverse;
         align-items: center;
         gap: 2rem;
+        width:100%;
+        word-break: normal;
         
 
     }
