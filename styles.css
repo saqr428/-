@@ -290,8 +290,7 @@ footer{
         gap: 1.5rem;
         padding: 1rem;
         align-items: center;
-            margin-left: 1rem;
-        margin-right: 1rem;
+           
     }
     .hero{
         flex-direction: column;
