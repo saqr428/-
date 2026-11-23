@@ -314,12 +314,14 @@ footer{
         gap: 2rem;
         width:100%;
         word-break: normal;
+        text-aligh: right;
+        paading: 0 1rem;
         
 
     }
     .textContainer{
-        align-items: center;
-        margin: 0rem 5rem;
+        align-items: stretch;
+        margin: 0 1.5rem;
         gap:1rem;
 
 
@@ -356,7 +358,7 @@ footer{
         gap:1rem;
     }
     .contactContainer{
-        margin: 10rem 5rem;
+        margin: 4rem 1.5rem;
         gap:2rem;
     }
     .contact{
