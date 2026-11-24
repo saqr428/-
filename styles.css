@@ -314,13 +314,16 @@ footer{
         gap: 2rem;
         width:100%;
         word-break: normal;
-        text-aligh: right;
-        paading: 0 1rem;
+        text-align: right;
+        padding: 0 1rem;
         
 
     }
     .textContainer{
         align-items: stretch;
+        flex-direction: column;
+        margim: 0 1rem;
+        width: 100%;
         margin: 0 1.5rem;
         gap:1rem;
 
@@ -367,6 +370,16 @@ footer{
         text-align:center;
         gap: 1rem;
         margin-right: 0;
+    }
+    .textTitle{
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .aboutMePar{
+        text-align: right;
+        width: 100%;
+        len-height: 1.7:
     }
 }   
 
