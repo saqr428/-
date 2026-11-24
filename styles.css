@@ -381,6 +381,8 @@ footer{
         width: 100%;
         len-height: 1.7:
     }
+    .contactTitle{
+        flex-direction: row-reverse;
 }   
 
 
